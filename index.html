@@ -28,39 +28,42 @@
 <body>
 
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+	<nav class="navbar navbar-expand-md navbar-light bg-transparent justify-content-end">
+
 		<div class="container-fluid">
-			<div class="navbar-header" style="font-family: 'Dancing Script', cursive;">
-				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">    atmfaisal</a>
+
+			<a class="navbar-brand" href="index.html" style="font-family: 'Dancing Script', cursive;"><img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">    atmfaisal</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto flex-column flex-md-row">
+					<li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#">Resume</a> </li>
+
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Tutorial<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">C/C++</a></li>
+							<li><a class="dropdown-item" href="#">Python</a></li>
+							<li><a class="dropdown-item" href="#">Machine Learning</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="mailto:faisal2408rcc@gmail.com">Contact</a> </li>
+				</ul>
 			</div>
-
-			<ul class="nav navbar-nav navbar-right">
-				<li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#">Resume</a> </li>
-
-				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Tutorial<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">C/C++</a></li>
-						<li><a class="dropdown-item" href="#">Python</a></li>
-						<li><a class="dropdown-item" href="#">Machine Learning</a></li>
-					</ul>
-				</li>
-			
-				<li class="nav-item"> <a class="nav-link" href="mailto:faisal2408rcc@gmail.com">Contact</a> </li>
-			</ul>
 		</div>
 	</nav>
 
-
-	<div class="container">
-		<div class="test">
-			<div align="center">
-				<h2>Abu Toha Md Faisal</h2>
-				<span class="badge badge-dark">CS Graduate</span>
-				<span class="badge badge-primary">Competitive Programmer</span>
-				<span class="badge badge-success">Machine Learning Enthusiast</span>
-			</div>
+	<div class="d-flex align-items-center justify-content-center" style="height: 80%;">
+		<div class="container" align="center">
+			<h2>Abu Toha Md Faisal</h2>
+			<span class="badge badge-dark">CS Graduate</span>
+			<span class="badge badge-primary">Competitive Programmer</span>
+			<span class="badge badge-success">Machine Learning Enthusiast</span>
 		</div>
 	</div>
 </body>
